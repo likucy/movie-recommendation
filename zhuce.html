@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册 - 电影推荐系统</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="login-container">
+    <h1><i class="fas fa-user-plus"></i> 注册账号</h1>
+    <form action="zhuce.php" method="post">
+        <div class="form-group">
+            <label for="username">用户名</label>
+            <input type="text" id="username" name="username" required placeholder="设置用户名">
+            <p class="form-tip">4-16个字符，可使用字母、数字</p>
+        </div>
+        <div class="form-group">
+            <label for="password">密码</label>
+            <input type="password" id="password" name="password" required placeholder="设置密码">
+        </div>
+        <div class="form-group">
+            <label for="confirm_password">确认密码</label>
+            <input type="password" id="confirm_password" name="confirm_password" required placeholder="再次输入密码">
+        </div>
+        <div class="form-group">
+            <label for="captcha">验证码</label>
+            <div class="captcha-row">
+                <input type="text" id="captcha" name="captcha" required placeholder="输入验证码">
+                <img src="yzm.php" alt="验证码" class="captcha-img" onclick="this.src='yzm.php?t='+Date.now()">
+            </div>
+        </div>
+        <button type="submit" class="submit-btn"><i class="fas fa-user-check"></i> 注册</button>
+        <div class="register-link">
+            已有账号? <a href="deng.html">立即登录</a>
+        </div>
+    </form>
+</div>
+</body>
+</html>

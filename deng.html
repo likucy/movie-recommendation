@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 - 电影推荐系统</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="login-container">
+    <h1><i class="fas fa-film"></i> 电影推荐系统</h1>
+    <form action="deng.php" method="post">
+        <div class="form-group">
+            <label for="username">用户名</label>
+            <input type="text" id="username" name="username" required placeholder="请输入用户名">
+        </div>
+        <div class="form-group">
+            <label for="password">密码</label>
+            <input type="password" id="password" name="password" required placeholder="请输入密码">
+        </div>
+        <div class="form-group">
+            <label for="captcha">验证码</label>
+            <div class="captcha-row">
+                <input type="text" id="captcha" name="captcha" required placeholder="输入验证码">
+                <img src="yzm.php" alt="验证码" class="captcha-img" onclick="this.src='yzm.php?t='+Date.now()">
+            </div>
+        </div>
+        <button type="submit" class="submit-btn"><i class="fas fa-sign-in-alt"></i> 登录</button>
+        <div class="register-link">
+            没有账号? <a href="zhuce.html">立即注册</a>
+        </div>
+    </form>
+</div>
+</body>
+</html>
