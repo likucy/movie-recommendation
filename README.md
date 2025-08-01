@@ -30,7 +30,7 @@
 
 ##  目录结构简览
 
-movie-recommendation/
+movie-recommendation/<br>
 ├── index.php # 主页<br>
 ├── conn.php # 数据库连接<br>
 ├── deng.php / deng.html # 登录功能<br>
