@@ -31,18 +31,18 @@
 ##  目录结构简览
 
 movie-recommendation/
-├── index.php # 主页
-├── conn.php # 数据库连接
-├── deng.php / deng.html # 登录功能
-├── zhuce.php / zhuce.html # 注册功能（含验证码）
-├── yzm.php # 验证码生成
-├── dianying.php # 电影列表页
-├── movie_detail.php # 电影详情页
-├── movie_list.php # 推荐记录展示
-├── delete_account.php # 注销账号处理
-├── logout.php # 退出登录
-├── image/ # 存放电影本地封面图（已下载）
-├── style1.css / style2.css # 页面样式
+├── index.php # 主页<br>
+├── conn.php # 数据库连接<br>
+├── deng.php / deng.html # 登录功能<br>
+├── zhuce.php / zhuce.html # 注册功能（含验证码）<br>
+├── yzm.php # 验证码生成<br>
+├── dianying.php # 电影列表页<br>
+├── movie_detail.php # 电影详情页<br>
+├── movie_list.php # 推荐记录展示<br>
+├── delete_account.php # 注销账号处理<br>
+├── logout.php # 退出登录<br>
+├── image/ # 存放电影本地封面图（已下载）<br>
+├── style1.css / style2.css # 页面样式<br>
 └── ...
 
 ##  使用方式（本地运行）
